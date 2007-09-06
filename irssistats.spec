@@ -1,15 +1,15 @@
 %define name irssistats
-%define version 0.71
-%define release 1mdk
+%define version 0.73
+%define release %mkrel 1
 
 Name: %name
 Summary: This tool generates HTML IRC stats based on irssi logs
 Version: %version
 Release: %release
 Url: http://royale.zerezo.com/irssistats/
-Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.bz2
+Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.gz
 Group: Networking/IRC
-License: GPL
+License: GPLv2+
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
@@ -35,4 +35,3 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/irssistats
 %{_mandir}/man1/*
 %_datadir/%name
-%_docdir/%name/*
