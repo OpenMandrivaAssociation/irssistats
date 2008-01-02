@@ -10,6 +10,7 @@ Url: http://royale.zerezo.com/irssistats/
 Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.gz
 Group: Networking/IRC
 License: GPLv2+
+BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 irssistats is a tool that make HTML stats from irssi logfiles.
