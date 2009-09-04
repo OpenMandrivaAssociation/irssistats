@@ -1,6 +1,6 @@
 %define name irssistats
 %define version 0.73
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name: %name
 Summary: This tool generates HTML IRC stats based on irssi logs
