@@ -1,16 +1,16 @@
-%define name irssistats
-%define version 0.73
-%define release %mkrel 4
+%define	name	irssistats
+%define	version	0.75
+%define	release	%mkrel 1
 
-Name: %name
-Summary: This tool generates HTML IRC stats based on irssi logs
-Version: %version
-Release: %release
-Url: http://royale.zerezo.com/irssistats/
-Source: http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.gz
-Group: Networking/IRC
-License: GPLv2+
-BuildRoot: %{_tmppath}/%{name}-buildroot
+Name:		%name
+Summary:	This tool generates HTML IRC stats based on irssi logs
+Version:	%version
+Release:	%release
+Url:		http://royale.zerezo.com/irssistats/
+Source:		http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.gz
+Group:		Networking/IRC
+License:	GPLv2+
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 irssistats is a tool that make HTML stats from irssi logfiles.
