@@ -6,7 +6,7 @@ Name:		%name
 Summary:	This tool generates HTML IRC stats based on irssi logs
 Version:	%version
 Release:	%release
-Url:		http://royale.zerezo.com/irssistats/
+Url:		https://royale.zerezo.com/irssistats/
 Source:		http://royale.zerezo.com/%{name}/%{name}-%{version}.tar.gz
 Group:		Networking/IRC
 License:	GPLv2+
